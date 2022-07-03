@@ -11,6 +11,14 @@ protocol CanFly{
     func fly()
 }
 
+// Default Implementation of fly Function
+// Extension give more functionnality or set default function
+extension CanFly{
+    func fly(){
+        print("I can fly !")
+    }
+}
+
 class Bird{
     
     var isFemale = true
